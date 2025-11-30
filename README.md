@@ -16,14 +16,14 @@
 ### ۱. تنظیمات نقشه
 در فایل `lib/services/neshan_service.dart`، کلید API خود را از سایت [نشان](https://platform.neshan.org/) دریافت کرده و جایگزین کنید:
 ```dart
-8 -   const String apiKey = 'YOUR_API_KEY_HERE';
+|8| -   const String apiKey = 'YOUR_API_KEY_HERE';
 ```
 
 
 ### ۲. تنظیمات نقشه
 در فایل `lib/screens/home_screen.dart`، نام پکیج برنامه خودتون رو جایگزین کنید:
 ```dart
-230 -  userAgentPackageName: 'com.example.app_name', // اسم پکیج برنامه خودتون رو اینجا بنویسید
+|230| -  userAgentPackageName: 'com.example.app_name', // اسم پکیج برنامه خودتون رو اینجا بنویسید
  ```
 
 ### ۳. تنظیمات فایربیس
