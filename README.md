@@ -15,14 +15,19 @@
 
 ### ۱. تنظیمات نقشه
 در فایل `lib/services/neshan_service.dart`، کلید API خود را از سایت [نشان](https://platform.neshan.org/) دریافت کرده و جایگزین کنید:
-const String apiKey = 'YOUR_API_KEY_HERE';
+8 -   const String apiKey = 'YOUR_API_KEY_HERE';
 
-### ۲. تنظیمات فایربیس
+
+### ۲. تنظیمات نقشه
+در فایل `lib/screens/home_screen.dart`، نام پکیج برنامه خودتون رو جایگزین کنید:
+230 -  userAgentPackageName: 'com.example.app_name', // اسم پکیج برنامه خودتون رو اینجا بنویسید
+
+### ۳. تنظیمات فایربیس
 ۱. در [کنسول فایربیس](https://console.firebase.google.com/) یک پروژه بسازید.
 ۲. فایل `google-services.json` را دانلود کرده و در پوشه `android/app/` قرار دهید.
 ۳. در بخش Authentication، گزینه Email/Password را فعال کنید.
 ۴. در بخش Firestore Database، دیتابیس را بسازید.
 
-### ۳. اجرای برنامه
+### ۴. اجرای برنامه
 flutter pub get
 flutter run
