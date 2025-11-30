@@ -34,4 +34,11 @@
 
 ### ۴. اجرای برنامه
 flutter pub get
+
 flutter run
+
+
+.
+.
+تست اپ:
+https://019ad675-3cd8-7adf-839b-4a9598728686.arena.site
