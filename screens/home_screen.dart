@@ -227,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   TileLayer(
                     urlTemplate: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                    userAgentPackageName: 'com.example.qom_taxi',
+                    userAgentPackageName: 'com.example.app_name', // اسم پکیج برنامه خودتون رو اینجا بنویسید
                   ),
 
                   // خط مسیر (Polyline)
@@ -508,3 +508,4 @@ class _InfoBox extends StatelessWidget {
     );
   }
 }
+
