@@ -4,7 +4,8 @@ import 'package:latlong2/latlong.dart';
 
 class NeshanService {
   // کلید API خودت رو اینجا بذار
-  static const String apiKey = 'service.f0c16de008444f02a71784fbdc3bbb77';
+  // کلید API خود را از پنل نشان بگیرید و اینجا بگذارید
+static const String apiKey = 'YOUR_NESHAN_API_KEY'; 
 
   // گرفتن آدرس از روی مختصات (Reverse Geocoding)
   static Future<String> getAddress(LatLng point) async {
@@ -77,3 +78,4 @@ class NeshanService {
     return points;
   }
 }
+
